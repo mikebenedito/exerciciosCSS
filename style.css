@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #004dda;
+    --dark: #5a5a5f;
+    --light: #fff;
+    --grey: #c4c4c4;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    color: var(--dark);
+    display: flex;
+}
+
+.main_nav {
+    background-color: yellow;
+}
+
+.main_content{
+    background-color: orange;
+    flex-grow: 1;
+}
