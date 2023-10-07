@@ -3,31 +3,73 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/style.css">
         <title>Document</title>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="preconnect" href="http://googleleapis.com">
+        <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap">
     </head>
     <body>
         <nav class="main_nav">
             <a href="#">Dashboard</a>
             <div class="menus">
                 <ul class="menu">
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="#">Announced</a></li>
-                    <li><a href="#">Preparation</a></li>
-                    <li><a href="#">Sorted</a></li>
-                    <li><a href="#">Distributed</a></li>
+                    <li><img src="/img/Home.png" class="img"><a href="#">Dashboard</a></li>
+                    <li><img src="/img/Announced.png" class="img"><a href="#">Announced</a></li>
+                    <li><img src="/img/NotePencil.png" class="img"><a href="#">Preparation</a></li>
+                    <li><img src="/img/ListChecks.png" class="img"><a href="#">Sorted</a></li>
+                    <li><img src="/img/Distributed.png" class="img"><a href="#">Distributed</a></li>
                 </ul>
                 <ul class="menu">
-                    <li><a href="#"></a></li>
+                    <li><img src="/img/SignOut.png" class="img"><a href="#">Logout</a></li>
                 </ul>
             </div>
-        </nav>
-        <div class="main_content">
+        </nav> 
+        <div class="main_content">    
             <header class="top_nav">
-                header
+                <nav>
+                    <ul class="topnav_menu">
+                        <li><img src="/img/User.png" class="img"><a href="#">Profile</a></li>
+                        <li><img src="/img/Gear.png"class="img"><a href="#">Settings</a></li>
+                    </ul>
+                </nav>
+                <section class="perfil">
+                    <div>Daniel Morales</div>
+                    <div>Front-end</div>
+                </section>
             </header>
             <main>
-                main
+                <section class="summary">
+                    <article>
+                        <span class="description">Announced Today</span>
+                        <span class="number">235600</span>
+                    </article>
+                    <span class="separate"></span>
+                    <article>
+                        <span class="description">Prepared Today</span>
+                        <span class="number">16738</span>
+                    </article>
+                    <span class="separate"></span>
+                    <article>
+                        <span class="description">Sorted Today</span>
+                        <span class="number">286</span>
+                    </article>
+                    <a href="#" class="btn">See more</a>
+                </section>
+
+                <article class="main-chart">
+                    <img src="/img/chart1.png" alt="chart1">
+                </article>
+
+                <div class="charts">
+                    <article class="chart">
+                        <img src="/img/chart2.png" alt="chart2">
+                    </article>
+
+                    <article class="chart">
+                        <img src="/img/chart3.png" alt="chart 3">
+                    </article>
+                </div>
             </main>
         </div>
     </body>
