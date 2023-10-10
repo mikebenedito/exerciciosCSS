@@ -16,11 +16,11 @@ html, body{
     margin: 0;
 }
 
-body{
+body {
     font-family: Poppins, sans-serif;
     color: var(--dark);
     display: flex;
-    background-color: var(--grey);
+    background-color:#e4e4e4;
     min-height: 100%;
 }
 
@@ -48,6 +48,10 @@ body{
     background-color: var(--light);
 }
 
+.dashboard {
+    font-weight: bold;
+}
+
 .main_content{
     flex-grow: 1;
 }
@@ -61,7 +65,7 @@ body{
 }
 
 .top_nav {
-    background-color: #ddd;
+    background-color: #ffffff;
     padding-left: 20px;
     display: flex;
     justify-content: space-between;
@@ -73,12 +77,14 @@ body{
     margin-right: 10px;
 }
 
+.perfilname{
+    font-weight: bold;
+}
+
 .topnav_menu li {
     display: inline-block;
     list-style: none;
 }
-
-
 
 main {
     padding: var(--default-pad);
@@ -125,6 +131,7 @@ img {
 .number {
     color: var(--primary-color);
     font-weight: 600;
+    font-size: larger;    
     padding: 0 .5rem;
 }
 
